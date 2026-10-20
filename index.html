@@ -8,28 +8,48 @@
     <title>Q2 Drill 2</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
 </head>
+<style>
+    .container {
+            background-color: rgb(218, 74, 151);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 500px;
+            length: 300px;
+            justify-content: center;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-lg-7">
+        <div class="col-12">
             <h1>Rainbow Catering Club Members:</h1>
             <form action="">
-                <input type="text" id="input1" placeholder="Enter member last name here..">
+                <input type="text" id="input1" placeholder="Enter member first name here..">
                 <br>
             
             </form>
             <br>
             <form action="">
-                <input type="text" id="input2" placeholder="Enter member first name here..">
+                <input type="text" id="input2" placeholder="Enter member last name here..">
                 <br>
             <button type="button" id="btn" class="btn btn-danger" py-click="add_brand">Add</button>
             </form>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-7" id="output1">
-
+        <div class="col-12" id="output2">
         </div>
+        <div class="row">
+    <div class="col-12" id="output1"></div>
+</div>
     </div>
 </div>
 <script type="py" src="main.py"></script>
